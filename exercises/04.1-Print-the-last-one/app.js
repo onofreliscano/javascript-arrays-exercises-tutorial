@@ -8,3 +8,13 @@ function generateRandomArray()
 var myStupidArray = generateRandomArray();
 
 //Your code here
+let arraySize = myStupidArray.length;
+console.log ("ARRAY: " + myStupidArray);
+console.log ("LENGHT: " + arraySize);
+console.log ("================================");
+myStupidArray.push ("LAST ITEM");
+arraySize = myStupidArray.length;
+let lastItem = myStupidArray[arraySize -1];
+console.log ("NEW ARRAY: " + myStupidArray);
+console.log ("NEW LENGHT: " + arraySize);
+console.log ("LAST ITEM: " + lastItem);
